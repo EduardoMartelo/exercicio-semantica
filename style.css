@@ -73,6 +73,10 @@ p {
   justify-items: end;
 }
 
+.introducao h1 {
+  font-size: 2rem;
+}
+
 .detalhe::after {
   content: "";
   width: 60px;
