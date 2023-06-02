@@ -131,6 +131,10 @@ p {
   grid-column: 2;
 }
 
+.vantagens-item:hover {
+  border-left: 4px solid #e21;
+}
+
 .rodape {
   background: #fff;
   width: 100%;
