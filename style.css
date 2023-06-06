@@ -149,6 +149,7 @@ p {
   .conteudo {
     display: grid;
     grid-template-columns: 1fr;
+    max-width: 500px;
   }
 
   .menu ul {
@@ -174,5 +175,11 @@ p {
     text-align: center;
     align-content: center;
     justify-items: center;
+  }
+}
+
+@media (max-width: 969px) {
+  .subtitulo {
+    font-size: 57px;
   }
 }
