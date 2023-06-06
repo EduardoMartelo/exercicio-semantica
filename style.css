@@ -106,19 +106,7 @@ p {
   text-align: right;
   padding: 40px;
   align-self: center;
-  border-left: #e21;
   background: url(img/onda.svg);
-}
-
-.subtitulo::before {
-  content: "";
-  display: inline-block;
-  position: absolute;
-  width: 3px;
-  height: 8rem;
-  background: #e21;
-  top: 3.2rem;
-  left: 3rem;
 }
 
 .vantagens {
@@ -155,4 +143,36 @@ p {
 
   /* Pra não estourar o container e não somar o pixel do padding */
   box-sizing: border-box;
+}
+
+@media (max-width: 881px) {
+  .conteudo {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .menu ul {
+    display: block;
+  }
+
+  .menu li {
+    align-items: center;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .menu a:hover {
+    border: none;
+    color: #e21;
+  }
+
+  .introducao::before {
+    display: none;
+  }
+
+  .introducao {
+    text-align: center;
+    align-content: center;
+    justify-items: center;
+  }
 }
