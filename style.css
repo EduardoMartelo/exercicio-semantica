@@ -19,6 +19,7 @@
   .header img {
     background: #fff;
     padding: 15px;
+    border-radius: 9px;
   }
   .conteudo .intoducao {
     background-color: #000;
